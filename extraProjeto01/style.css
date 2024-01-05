@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color0: black;
+    --color1: white;
+    --color2: #3F3D56;
+    --color3: #EE24FF;
+    --color4: #828282;
+    --color5: #ECEFF2;
+}
+
+body {
+    text-align: center;
+    font: normal normal 15px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 64px auto;
+    width: 626px;
+}
+
+h1 {
+    font: normal 500 32px 'Dosis', Arial, Helvetica, sans-serif;
+    color: var(--color2);
+    margin: 32px auto 16px;
+}
+
+h1 span {
+    font-weight: 700;
+    color: var(--color3);
+}
+
+p {
+    width: 540px;
+    margin: auto;
+    text-align: center;
+    line-height: 22px;
+    color: var(--color4);
+}
+
+p span {
+    color: var(--color2);
+    font-weight: 700;
+}
+
+#lastLine {
+    margin-top: 32px;
+}
+
+footer {
+    height: 176px;
+}
+
+hr {
+    width: 391px;
+    border-color: var(--color5);
+    margin: 0 auto 16px;
+}
+
+a {
+    color: var(--color2);
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 22.152px;
+    margin: 0 21px;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+    width: 100vw;
+    margin-top: 40.83px;
+}
