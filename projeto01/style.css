@@ -63,7 +63,7 @@ span {
 hr {
     width: 592px;
     margin: 0 auto 8px;
-    color: var(--color6);
+    border-color: var(--color6);
 }
 
 footer {
