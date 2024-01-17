@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -7,5 +12,64 @@
 :root {
   --color0: black;
   --color1: white;
-  
+  --color2: #89C5CC;
+  --color3: #7D7987;
+  --color4: #69B99D;
+  --color5: #1F1534;
+  --color6: #F9F9F9;
+}
+
+header {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: 65px 153px 58px 122px;
+}
+
+ul {
+  font: normal normal 18px "Mulish", sans-serif;
+  color: var(--color5);
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+
+ul a:hover {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 153px 0 119px;
+}
+
+h1 {
+  font: normal normal 49px "Mulish", sans-serif;
+  line-height: 56px;
+  margin: 51px 0 40px 0;
+}
+
+span {
+  font-weight: bold;
+  color: var(--color2);
+}
+
+p {
+  font: normal normal 14px "Open Sans", sans-serif;
+  line-height: 28px;
+  color: var(--color3);
+}
+
+button {
+  height: 56px;
+  width: 179px;
+  margin-top: 40px;
+  border-radius: 4px;
+  background-color: var(--color4);
+  color: var(--color6);
 }
