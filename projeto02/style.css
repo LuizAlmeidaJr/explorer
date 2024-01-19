@@ -17,11 +17,17 @@
   --color4: #69B99D;
   --color5: #1F1534;
   --color6: #F9F9F9;
+  --color7: #69b99db4;
+  --color8: #e3fff800;
+  --color9: #e3fff861;
+}
+
+body {
+  background: linear-gradient(to bottom, var(--color8) 82.08%, var(--color9));
 }
 
 header {
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
   margin: 65px 153px 58px 122px;
 }
@@ -32,10 +38,12 @@ ul {
   list-style: none;
   display: flex;
   gap: 48px;
+  opacity: 0.5;
 }
 
 ul a:hover {
   font-weight: 700;
+  opacity: 1;
 }
 
 a {
@@ -45,7 +53,7 @@ a {
 main {
   display: flex;
   justify-content: space-between;
-  margin: 0 153px 0 119px;
+  margin: 0 153px 82.36px 119px;
 }
 
 h1 {
@@ -66,10 +74,32 @@ p {
 }
 
 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   height: 56px;
   width: 179px;
   margin-top: 40px;
+  border: 0px;
   border-radius: 4px;
   background-color: var(--color4);
   color: var(--color6);
+  font: normal 500 16px "DM Sans", sans-serif;
+}
+
+button:hover {
+  background-color: var(--color7);
+  cursor: pointer;
+}
+
+footer p,a {
+  color: var(--color0);
+  text-align: center;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
