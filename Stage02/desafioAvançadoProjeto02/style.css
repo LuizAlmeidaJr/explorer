@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --color0: black;
+  --color1: white;  
+  --color2: #2F2E41;
+  --color3: #00BFA6;
+  --color4: #C2C2C2;
+}
+
+body {
+  background-color: var(--color2);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
