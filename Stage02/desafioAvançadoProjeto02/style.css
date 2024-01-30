@@ -27,6 +27,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 
 header {
@@ -52,7 +53,7 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 82px;
-  width: 1092px;
+  width: 85vw;
   margin: 0 89px 0 99px;
 }
 
